@@ -420,4 +420,152 @@ footer h3 {
 
 }
 
+/* ===== SCROLL ANIMATION ===== */
 
+section {
+    opacity: 0;
+    transform: translateY(40px);
+
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* =========================================
+   MOBILE HAMBURGER MENU
+   ========================================= */
+
+
+/* Hamburger button hidden on desktop */
+
+.menu-toggle {
+    display: none;
+
+    background: transparent;
+    border: none;
+
+    color: #38bdf8;
+
+    font-size: 28px;
+
+    cursor: pointer;
+
+    padding: 5px;
+}
+
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+
+    header {
+        position: sticky;
+        top: 0;
+    }
+
+    nav {
+        position: relative;
+    }
+
+
+    /* Show hamburger */
+
+    .menu-toggle {
+        display: block;
+
+        position: absolute;
+
+        right: 0;
+        top: -5px;
+
+        z-index: 1001;
+    }
+
+
+    /* Mobile navigation */
+
+    .nav-links {
+
+        position: absolute;
+
+        top: 55px;
+        right: 0;
+
+        width: 220px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 0;
+
+        padding: 10px;
+
+        background: rgba(15, 23, 42, 0.98);
+
+        border: 1px solid rgba(56, 189, 248, 0.2);
+
+        border-radius: 12px;
+
+        box-shadow:
+            0 15px 40px rgba(0, 0, 0, 0.4);
+
+        /* Hidden */
+
+        opacity: 0;
+
+        visibility: hidden;
+
+        transform: translateY(-10px);
+
+        transition: all 0.3s ease;
+    }
+
+
+    /* Open menu */
+
+    .nav-links.active {
+
+        opacity: 1;
+
+        visibility: visible;
+
+        transform: translateY(0);
+    }
+
+
+    /* Mobile links */
+
+    .nav-links a {
+
+        display: block;
+
+        padding: 12px 15px;
+
+        border-radius: 8px;
+
+        font-size: 15px;
+    }
+
+
+    .nav-links a:hover {
+
+        background: rgba(56, 189, 248, 0.1);
+
+    }
+
+
+    /* Remove underline effect on mobile */
+
+    .nav-links a::after {
+        display: none;
+    }
+
+}
