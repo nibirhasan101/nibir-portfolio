@@ -68,7 +68,7 @@ const messageButton = document.querySelector(".contact-box button");
 
 messageButton.addEventListener("click", function () {
 
-    const email = "nibirhasa898@gmail.com";
+    const email = "nibirhasan898@gmail.com";
 
     window.location.href =
         "mailto:" + email +
