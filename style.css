@@ -47,7 +47,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #38bdf8;
+    color: #e21111;
 }
 
 
@@ -86,13 +86,13 @@ nav {
 }
 
 .hero h2 {
-    color: #c9443f;
+    color: #d41812e0;
     font-size: 28px;
 }
 
 .hero p {
     color: #cbd5e1;
-    line-height: 1.8;
+    line-height: 1.7;
     font-size: 17px;
 }
 
@@ -202,9 +202,9 @@ section h2 {
 .skill-card {
     width: 300px;
 
-    background-color: #1e293b;
+    background-color: #0c1b33;
 
-    padding: 30px;
+    padding: 25px;
 
     border-radius: 15px;
 
@@ -218,8 +218,8 @@ section h2 {
 }
 
 .skill-card p {
-    color: #94a3b8;
-    line-height: 1.6;
+    color: #f0efed6e;
+    line-height: 1.7;
 }
 
 .progress {
@@ -236,7 +236,7 @@ section h2 {
 
 .progress-bar {
     height: 100%;
-    background-color: #38bdf8;
+    background-color: #2b98c7;
 }
 
 .html {
@@ -248,7 +248,7 @@ section h2 {
 }
 
 .js {
-    width: 30%;
+    width: 40%;
 }
 
 .skill-card span {
@@ -276,9 +276,9 @@ section h2 {
 .project-card {
     width: 300px;
 
-    background-color: #1e293b;
+    background-color: #08d4db1e;
 
-    padding: 30px;
+    padding: 20px;
 
     border-radius: 15px;
 
@@ -302,7 +302,7 @@ section h2 {
 }
 
 .project-card p {
-    color: #94a3b8;
+    color: #a9bbc78a;
     line-height: 1.6;
 }
 
@@ -367,11 +367,11 @@ section h2 {
 footer {
     text-align: center;
 
-    padding: 40px;
+    padding: 3px;
 
     background-color: #020617;
 
-    color: #94a3b8;
+    color: #b83d3da8;
 }
 
 footer h3 {
