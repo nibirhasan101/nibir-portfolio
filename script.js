@@ -102,6 +102,11 @@ const navLinks = document.querySelector(".nav-links");
 menuToggle.addEventListener("click", function () {
 
     navLinks.classList.toggle("active");
+      if (menuToggle.textContent === "X") {
+        menuToggle.textContent = "☰";
+    } else {
+        menuToggle.textContent = "X";
+    }
 
 });
 
@@ -119,3 +124,4 @@ navItems.forEach(function (link) {
     });
 
 });
+

@@ -86,7 +86,7 @@ nav {
 }
 
 .hero h2 {
-    color: #d41812e0;
+    color: #0bd30bef;
     font-size: 28px;
 }
 
@@ -371,7 +371,7 @@ footer {
 
     background-color: #020617;
 
-    color: #b83d3da8;
+    color: #aa3851;
 }
 
 footer h3 {
@@ -456,6 +456,7 @@ section.show {
     cursor: pointer;
 
     padding: 5px;
+    
 }
 
 
